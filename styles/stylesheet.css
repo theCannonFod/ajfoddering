@@ -34,6 +34,7 @@ html,body {
     position: -webkit-sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 
 }
 
@@ -51,7 +52,8 @@ html,body {
     width: 100%;
     background-size: cover;
 
-}
+
+    }
 
 .main {
 
@@ -62,6 +64,8 @@ html,body {
     flex-direction: column;
     padding-bottom: 50px;
     background-color: rgba(11,113,137,0.9);
+    backdrop-filter: blur(3px);
+    z-index: -1;
 
 }
 
