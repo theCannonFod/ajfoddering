@@ -30,6 +30,10 @@ html,body {
 
     height: 200px;
     display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
 
 }
 
