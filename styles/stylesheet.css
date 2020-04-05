@@ -116,7 +116,7 @@ html,body {
 
     width: 50px;
     margin: auto;
-    padding-bottom: 20px;
+    padding: 50px;
 
 }
 
@@ -332,6 +332,41 @@ html,body {
 @media only screen and (min-width: 1000px) {
 
 
+    .header {
+
+        max-height: 100px;
+
+    }
+
+    #me {
+
+        height: 400px;
+
+    }
+
+    #name {
+
+        font-size: 50px;
+
+    }
+
+    #dev {
+
+        font-size: 40px;
+
+    }
+
+    .socialContainer {
+
+        margin: 30px auto;
+
+    }
+
+    #arrow {
+
+        padding: 20px;
+
+    }
 
     .innerProjectContainer {
 
@@ -355,9 +390,29 @@ html,body {
 
     }
 
+    .columnLeft, .columnRight {
+
+        font-size: 20px;
+
+    }
+
     .contactCardContents {
 
         justify-content: center;
+        align-items: center;
+
+    }
+
+    .contactCard {
+
+        font-size: 30px;
+
+    }
+
+    .contactImg {
+
+        height: 50px;
+        width: 50px;
 
     }
 
