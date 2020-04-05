@@ -28,7 +28,7 @@ html,body {
 
 .header {
 
-    height: 75px;
+    height: 200px;
     display: flex;
 
 }
@@ -52,7 +52,7 @@ html,body {
 
 #me {
 
-    height: 200px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
@@ -61,59 +61,61 @@ html,body {
 
 #name {
 
-    font-size: 25pt;
+    font-size: 80px;
     font-family: 'Century Gothic', sans-serif;
     color: #a0e5ff;
-    margin: 15px auto 5px;
+    margin: 5px auto 0px;
+    white-space: nowrap;
 
 }
 
 #dev {
 
-    font-size: 18pt;
+    font-size: 50px;
     font-family: 'Comfortaa', SansSerif;
     color: #E19250;
-    margin: 0px auto;
-    padding-left: 70px;
+    margin: 5px auto;
+    white-space: nowrap;
 
 }
 
 .socialContainer {
 
     display: flex;
-    margin: 30px auto;
+    margin: 75px auto;
 
 }
 
 #gitMain {
 
-    width: 50px;
-	height: 50px;
+    width: 100px;
+	height: 100px;
     padding-right: 20px;
 
 }
 
 #linkedInMain {
 
-    width: 50px;
-	height: 50px;
+    width: 100px;
+	height: 100px;
     padding-left: 20px;
 
 }
 
 #go {
 
-    font-size: 16pt;
+    font-size: 40px;
     font-family: 'Century Gothic', sans-serif;
     color: #a0e5ff;
-    margin: 0px auto 5px;
+    margin: 0px auto auto;
+    white-space: nowrap;
 
 }
 
 #arrow {
 
-    width: 20px;
-    margin: 15px auto 1%;
+    width: 50px;
+    margin: auto;
     padding-bottom: 20px;
 
 }
@@ -132,7 +134,7 @@ html,body {
     color: #0B7189;
     font-weight: 900;
     margin-left: 1%;
-    font-size: 20px;
+    font-size: 40px;
 
 }
 
@@ -141,7 +143,7 @@ html,body {
 .project {
 
     border: 2px solid #0B7189;
-    margin: 5px 1%;
+    margin: 20px 1%;
     font-family: "Century Gothic", SansSerif;
     color: #0B7189;
     font-weight: 900;
@@ -160,7 +162,7 @@ html,body {
     font-family: "Century Gothic Bold", SansSerif;
     color: #0B7189;
     margin: 0px auto 0px 5%;
-    font-size: 16pt;
+    font-size: 40px;
 
 }
 
@@ -169,7 +171,7 @@ html,body {
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
     margin: 5px auto 15px 5%;
-    font-size: 12pt;
+    font-size: 30px;
 
 }
 
@@ -190,7 +192,7 @@ html,body {
     color: #a0e5ff;
     font-weight: 900;
     margin-left: 1%;
-    font-size: 20px;
+    font-size: 40px;
 
 }
 
@@ -207,7 +209,7 @@ html,body {
     font-family: "Century Gothic Bold", SansSerif;
     color: #0B7189;
     margin: 5px auto 5px 2%;
-    font-size: 16pt;
+    font-size: 40px;
 
 }
 
@@ -223,7 +225,7 @@ html,body {
     font-family: "Century Gothic", SansSerif;
     color: #170A1C;
     margin-left: 2%;
-    font-size: 16px;
+    font-size: 40px;
     text-align: justify;
     width: 150px;
 
@@ -234,14 +236,14 @@ html,body {
     font-family: "Century Gothic", SansSerif;
     color: #170A1C;
     margin-left: 20%;
-    font-size: 16px;
+    font-size: 40px;
     text-align: justify;
 }
 
 #skillTag {
 
     font-family: "Comfortaa", SansSerif;
-    font-size: 16pt;
+    font-size: 40px;
     color: #a0e5ff;
     margin-left: 1%;
 
@@ -265,7 +267,7 @@ html,body {
     font-family: "Century Gothic Bold", SansSerif;
     color: #0B7189;
     margin: 5px auto 5px 2%;
-    font-size: 16pt;
+    font-size: 40px;
 
 }
 
@@ -274,7 +276,7 @@ html,body {
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
     margin: 3px auto 10px 2%;
-    font-size: 13pt;
+    font-size: 30px;
 
 }
 
@@ -287,6 +289,7 @@ html,body {
     font-family: "Century Gothic", SansSerif;
     color: #0B7189;
     font-weight: 900;
+    font-size: 40px;
 
 }
 
@@ -298,8 +301,8 @@ html,body {
 
 .contactImg {
 
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     margin: 5px 30px 5px 5px;
 
 }
@@ -307,7 +310,7 @@ html,body {
 .footer {
 
     background-color: #0B7189;
-    min-height: 75px;
+    min-height: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -318,8 +321,9 @@ html,body {
 
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
-    font-size: 11pt;
+    font-size: 30px;
     margin: auto;
+    white-space: nowrap;
 
 }
 
