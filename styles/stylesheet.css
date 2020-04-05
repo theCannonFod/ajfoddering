@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+@font-face {
+
+    font-family: "Century Gothic";
+    src:url("../fonts/GOTHIC.TTF");
+}
+
+@font-face {
+
+    font-family: "Century Gothic Bold";
+    src:url("../fonts/GOTHICB.TTF");
+}
+
+@font-face {
+
+    font-family: Comfortaa;
+    src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
+
+}
+
+html,body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+
+    height: 75px;
+    display: flex;
+
+}
+
+#logo {
+
+    height: 90%;
+    margin: auto 1%
+
+}
+
+.main {
+
+    background-color: #0B7189;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#me {
+
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+
+}
+
+#name {
+
+    font-size: 25pt;
+    font-family: 'Century Gothic', sans-serif;
+    color: #a0e5ff;
+    margin: 15px auto 5px;
+
+}
+
+#dev {
+
+    font-size: 18pt;
+    font-family: 'Comfortaa', SansSerif;
+    color: #E19250;
+    margin: 0px auto;
+    padding-left: 70px;
+
+}
+
+.socialContainer {
+
+    display: flex;
+    margin: 30px auto;
+
+}
+
+#gitMain {
+
+    width: 50px;
+	height: 50px;
+    padding-right: 20px;
+
+}
+
+#linkedInMain {
+
+    width: 50px;
+	height: 50px;
+    padding-left: 20px;
+
+}
+
+#go {
+
+    font-size: 16pt;
+    font-family: 'Century Gothic', sans-serif;
+    color: #a0e5ff;
+    margin: 0px auto 5px;
+
+}
+
+#arrow {
+
+    width: 20px;
+    margin: 15px auto 1%;
+    padding-bottom: 20px;
+
+}
+
+.projectContainer {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+#projectTitle {
+
+    font-family: "Century Gothic Bold", SansSerif;
+    color: #0B7189;
+    font-weight: 900;
+    margin-left: 1%;
+    font-size: 20px;
+
+}
+
+
+
+.project {
+
+    border: 2px solid #0B7189;
+    margin: 5px 1%;
+    font-family: "Century Gothic", SansSerif;
+    color: #0B7189;
+    font-weight: 900;
+
+}
+
+.projectImg {
+
+    width: 90%;
+    margin: 10px 5%;
+
+}
+
+.projectName {
+
+    font-family: "Century Gothic Bold", SansSerif;
+    color: #0B7189;
+    margin: 0px auto 0px 5%;
+    font-size: 16pt;
+
+}
+
+.projectTech {
+
+    font-family: "Comfortaa", SansSerif;
+    color: #E19250;
+    margin: 5px auto 15px 5%;
+    font-size: 12pt;
+
+}
+
+.skillsContainer {
+
+    background-color: #0B7189;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+#skillTitle {
+
+    font-family: "Century Gothic Bold", SansSerif;
+    color: #a0e5ff;
+    font-weight: 900;
+    margin-left: 1%;
+    font-size: 20px;
+
+}
+
+.skillCard {
+
+    border: 2px solid #E19250;
+    background-color: white;
+    margin: 5px 2%;
+
+}
+
+.skillTitle {
+
+    font-family: "Century Gothic Bold", SansSerif;
+    color: #0B7189;
+    margin: 5px auto 5px 2%;
+    font-size: 16pt;
+
+}
+
+.columnContainer {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.columnLeft {
+
+    font-family: "Century Gothic", SansSerif;
+    color: #170A1C;
+    margin-left: 2%;
+    font-size: 16px;
+    text-align: justify;
+    width: 150px;
+
+}
+
+.columnRight {
+
+    font-family: "Century Gothic", SansSerif;
+    color: #170A1C;
+    margin-left: 20%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#skillTag {
+
+    font-family: "Comfortaa", SansSerif;
+    font-size: 16pt;
+    color: #a0e5ff;
+    margin-left: 1%;
+
+}
+
+.columnContainer {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contactContainer {
+
+    margin-bottom: 20px;
+
+}
+
+#contactTitle {
+
+    font-family: "Century Gothic Bold", SansSerif;
+    color: #0B7189;
+    margin: 5px auto 5px 2%;
+    font-size: 16pt;
+
+}
+
+#contactSubtitle {
+
+    font-family: "Comfortaa", SansSerif;
+    color: #E19250;
+    margin: 3px auto 10px 2%;
+    font-size: 13pt;
+
+}
+
+.cardLink { text-decoration: none;}
+
+.contactCard {
+
+    border: 2px solid #0B7189;
+    margin: 5px 1%;
+    font-family: "Century Gothic", SansSerif;
+    color: #0B7189;
+    font-weight: 900;
+
+}
+
+.contactCardContents {
+
+    display: flex;
+
+}
+
+.contactImg {
+
+    width: 40px;
+    height: 40px;
+    margin: 5px 30px 5px 5px;
+
+}
+
+.footer {
+
+    background-color: #0B7189;
+    min-height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#copyright {
+
+    font-family: "Comfortaa", SansSerif;
+    color: #E19250;
+    font-size: 11pt;
+    margin: auto;
+
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
+@media only screen and (min-width: 1000px) {
+
+
+
+    .innerProjectContainer {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .innerSkillsContainer {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .skillCard {
+
+        width: 45%;
+        margin: auto auto 10px auto;
+
+    }
+
+    .contactCardContents {
+
+        justify-content: center;
+
+    }
+
+
+}
