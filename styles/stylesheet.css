@@ -416,5 +416,11 @@ html,body {
 
     }
 
+    .footer {
+
+        min-height: 100px;
+
+    }
+
 
 }
