@@ -139,6 +139,7 @@ html,body {
 
 }
 
+
 .projectContainer {
 
     display: flex;
@@ -381,10 +382,10 @@ html,body {
 
     }
 
+
     .innerProjectContainer {
 
         display: flex;
-        flex-direction: row;
 
     }
 
