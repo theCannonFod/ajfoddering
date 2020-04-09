@@ -28,7 +28,7 @@ html,body {
 
 .header {
 
-    height: 200px;
+    height: 100px;
     display: flex;
     position: sticky;
     position: -webkit-sticky;
@@ -352,12 +352,6 @@ html,body {
 /* ----------------- MEDIA QUERIES ----------------- */
 
 @media only screen and (min-width: 1000px) {
-
-    .header {
-
-        max-height: 100px;
-
-    }
 
     .innerProjectContainer {
 
