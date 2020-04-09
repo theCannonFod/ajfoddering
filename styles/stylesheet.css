@@ -284,7 +284,7 @@ html,body {
 
 .contactCard {
 
-    margin: 30px 1% 30px;
+    margin: 30px;
     font-family: "Century Gothic", SansSerif;
     color: #FFFFFF;
     font-weight: 900;
@@ -292,6 +292,20 @@ html,body {
     display: flex;
     flex-basis: fit-content;
     background-color: #1E444D;
+
+
+}
+
+.contactCard:hover {
+
+    background-color: #E19250;
+    transition: ease-in 200ms;
+
+}
+
+.contactCard:hover > .cardSub {
+
+    color: #1E444D;
 
 }
 
@@ -372,25 +386,12 @@ html,body {
 
     }
 
-    .contactCardContents {
+    .cardContainer {
 
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .contactCard {
-
-        font-size: 30px;
+        display: flex;
 
     }
 
-    .contactImg {
-
-        height: 50px;
-        width: 50px;
-
-    }
 
     .footer {
 
