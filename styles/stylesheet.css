@@ -23,18 +23,19 @@ html,body {
 
     margin: 0;
     padding: 0;
+    font-size: 3vw;
 
 }
 
 .header {
 
-    height: 200px;
+    height: 8vh;
     display: flex;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -42,50 +43,53 @@ html,body {
 
 .main {
 
-
-    min-height: 100px;
+    min-height: 60vh;
     width: 100%;
     display: flex;
-    padding-bottom: 50px;
     background-color: #1E444D;
     z-index: -1;
-    margin-bottom: 0px;
+    padding-bottom: 20px;
+    position: relative;
+
 }
 
 .mainContainer {
 
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
 
 #me {
 
-    width: 20%;
-    height: 20%;
-    margin-right: auto;
-    padding-top: 2%;
-
+    width: 20vw;
+    height: 20vw;
+    padding: 10px;
 
 }
 
-#name {
+.name {
 
-    font-size: 130px;
+    font-size: 11vw;
     font-family: 'Century Gothic', sans-serif;
     color: white;
     text-align: right;
-    margin: 0px 10px 10px;
+    margin: 0px 5px 0px 0px;
 
 }
 
 #dev {
 
-    font-size: 50px;
+    font-size: 3vw;
     font-family: 'Comfortaa', SansSerif;
     color: #E19250;
     text-align: right;
-    margin: 0px 10px 500px 10px;
+    margin: 0px 5px 0px;
+
 
 }
 
@@ -94,44 +98,39 @@ html,body {
     display: flex;
     align-self: flex-end;
     margin-right: 20px;
-
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
 }
 
 #gitMain {
 
-    width: 100px;
-	height: 100px;
+    width: 40px;
+	height: 40px;
     padding-right: 20px;
 
 }
 
 #linkedInMain {
 
-    width: 100px;
-	height: 100px;
-    padding-left: 20px;
+    width: 40px;
+	height: 40px;
+    padding-left: 5px;
 
 }
 
 
-#arrow {
-
-    width: 50px;
-    margin: auto;
-
-
-}
-
-#projectTitle {
+.title {
 
     font-family: "Century Gothic Bold", SansSerif;
     color: #1E444D;
     font-weight: 900;
-    font-size: 200px;
-    margin: 0px;
-    padding-bottom: 40px;
-    line-height: 120px;
+    font-size: 18vw;
+    margin-top: 0px;
+    margin-bottom: 5vw;
+    z-index: -1;
+    line-height: 11vw;
 
 }
 
@@ -139,16 +138,14 @@ html,body {
 
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+
 
 }
 
 .project {
 
-
-    margin: 20px 1%;
     font-family: "Century Gothic", SansSerif;
-    padding: 20px;
+    z-index: 1;
 
 }
 
@@ -156,7 +153,6 @@ html,body {
 
     width: 90%;
     margin: 10px 5%;
-    padding-top: 20px;
 
 }
 
@@ -165,8 +161,8 @@ html,body {
     font-family: "Century Gothic Bold", SansSerif;
     color: #1E444D;
     margin: 0px auto 0px 5%;
-    font-size: 70px;
-    padding-top: 20px;
+    font-size: 2rem;
+    z-index: 1;
 
 }
 
@@ -175,7 +171,7 @@ html,body {
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
     margin: 5px auto 15px 5%;
-    font-size: 18.9pt;
+    z-index: 1;
 
 }
 
@@ -183,29 +179,19 @@ html,body {
 .skillsContainer {
 
     background-color: #1E444D;
+    position: relative;
     min-height: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0px;
-    padding-bottom: 50px;
-
+    padding-bottom: 10px;
+    z-index: -2;
 }
 
-#skillTitle {
-
-    font-family: "Century Gothic Bold", SansSerif;
-    color: #FFFFFF;
-    font-weight: 900;
-    font-size: 200px;
-    margin: 0px;
-    padding-bottom: 40px;
-    line-height: 120px;
-}
 
 .skillCard {
 
-    margin: 100px 2% 30px;
+    margin: auto;
 
 }
 
@@ -214,7 +200,6 @@ html,body {
     font-family: "Century Gothic", SansSerif;
     color: #FFFFFF;
     margin: 5px auto 5px 2%;
-    font-size: 40px;
 
 }
 
@@ -230,19 +215,20 @@ html,body {
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
     margin-left: 2%;
-    font-size: 40px;
     text-align: justify;
-    width: 150px;
-
+    width: 50%;
+    position: relative;
+    z-index: 1;
 }
 
 .columnRight {
 
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
-    margin-left: 20%;
-    font-size: 40px;
     text-align: justify;
+    position: relative;
+    z-index: 1;
+
 }
 
 .columnContainer {
@@ -252,31 +238,14 @@ html,body {
 
 }
 
-.contactContainer {
-
-
-    padding-bottom: 50px;
-
-}
-
-#contactTitle {
-
-    font-family: "Century Gothic Bold", SansSerif;
-    color: #1E444D;
-    font-weight: 900;
-    font-size: 200px;
-    margin: 0px;
-    padding-bottom: 40px;
-    line-height: 120px;
-
-}
+.contactContainer { padding-bottom: 10px;}
 
 #contactSubtitle {
 
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
-    margin: 10px auto 10px 2%;
-    font-size: 30px;
+    margin: 0px auto 5vh 2%;
+    font-size: 1.5rem;
 
 }
 
@@ -284,15 +253,14 @@ html,body {
 
 .contactCard {
 
-    margin: 30px;
+    margin: 5px;
     font-family: "Century Gothic", SansSerif;
     color: #FFFFFF;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 10pt;
     display: flex;
     flex-basis: fit-content;
     background-color: #1E444D;
-
 
 }
 
@@ -311,10 +279,8 @@ html,body {
 
 .cardTitle {
 
-    font-size: 150px;
-    line-height: 140px;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    font-size: 40pt;
+    margin: 0px 0px 20px 0px;
     width: 50%;
 }
 
@@ -332,7 +298,7 @@ html,body {
 .footer {
 
     background-color: #1E444D;
-    min-height: 200px;
+    min-height: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -343,25 +309,33 @@ html,body {
 
     font-family: "Comfortaa", SansSerif;
     color: #E19250;
-    font-size: 30px;
     margin: auto;
     white-space: nowrap;
+    font-size: 0.5rem;
 
 }
 
 /* ----------------- MEDIA QUERIES ----------------- */
 
-@media  only screen and (min-width: 501px){
+@media only screen and (min-width: 1000px) {
 
-    .header {
+    .main {
 
-        height: 100px;
+        min-height: 80vh;
 
     }
 
-}
+    .mainContainer {
 
-@media only screen and (min-width: 1000px) {
+        min-height: 80vh;
+
+    }
+
+    .name {
+
+        font-size: 8vw;
+
+    }
 
     .innerProjectContainer {
 
@@ -377,6 +351,12 @@ html,body {
 
     }
 
+    .projectName, .projectTech {
+
+        font-size: 0.8em;
+
+    }
+
     .skillCard {
 
         width: 45%;
@@ -386,13 +366,21 @@ html,body {
 
     .columnLeft, .columnRight {
 
-        font-size: 20px;
+      font-size: 0.5rem;
 
     }
 
     .cardContainer {
 
         display: flex;
+        justify-items: center;
+        justify-content: center;
+
+    }
+
+    .contactCard {
+
+        width: 48vw;
 
     }
 
@@ -403,13 +391,9 @@ html,body {
 
     }
 
-    #copyright {
-
-        font-size: 15px;
-
-    }
 
 }
+
 
 
 
